@@ -1,0 +1,17 @@
+[project]
+name = "VizFun"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["Woo Jin Lee <163913803+woojin-lee713@users.noreply.github.com>"]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tasks]
+
+[dependencies]
+python = ">=3.12.2,<3.13"
+matplotlib = ">=3.8.4,<3.9"
+pandas = ">=2.2.1,<2.3"
+jupyter = ">=1.0.0,<1.1"
+numpy = ">=1.26.4,<1.27"
+pytest = ">=8.1.1,<8.2"
